@@ -96,12 +96,12 @@ int AskUserForNumber()
     return int.Parse(Console.ReadLine());
 }
 
-void Repetation(int i, int cityHealth, int manticoreHealth)
+void Repetation(int currentRound, int cityHealth, int manticoreHealth)
 {
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine($"""
                --------------------------------------------------
-               STATUS: Round {i} City: {cityHealth}/15 Maticore: {manticoreHealth}/10    
+               STATUS: Round {currentRound} City: {cityHealth}/15 Maticore: {manticoreHealth}/10    
                """);
     NutralizeColor();
     Console.Write($"""
