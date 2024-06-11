@@ -64,7 +64,7 @@ int CheckForCorrectRange(int range)
     }
 }
 
-bool ShipAttackLogic(int userRange, int enemyRange) //4th line 
+bool ShipAttackLogic(int userRange, int enemyRange)  
 {
     cityHealth--;
     if (userRange != enemyRange)
